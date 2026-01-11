@@ -29,6 +29,7 @@ mvn clean install: First removes old build files using the clean lifecycle, then
 
 ## Maven Installation 
 ```bash
+apt install 
 wget https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.tar.gz
 tar -xvf apache-maven-3.9.12-bin.tar.gz
 root@ubuntu:~# mv apache-maven-3.9.12 /opt/
