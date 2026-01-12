@@ -43,7 +43,7 @@ mvn --version
 mvn archetype:generate -DgroupId=com.cbz.app -DartifactId=cbz-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
 tree cbz-app/
 git clone https://github.com/Bhushan-88/studentapp-ui.git
-
+cd studentapp-ui
 mvn clean package
 
 ```
