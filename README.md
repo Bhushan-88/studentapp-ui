@@ -34,7 +34,7 @@ sudo wget https://archive.apache.org/dist/maven/maven-3/3.9.1/binaries/apache-ma
 sudo tar -xzf apache-maven-3.9.1-bin.tar.gz
 root@ubuntu:~# mv apache-maven-3.9.1 /opt/
 root@ubuntu:~#cd /opt/apache-maven-3.9.12/bin
-vim /etc/profile # add end of the file ----->export PATH=$PATH:'/opt/apache-maven-3.9.12/bin'
+vim /etc/profile # add end of the file ----->export PATH=$PATH:'/opt/apache-maven-3.9.1/bin'
 source /etc/profile
 mvn --version
 ```
