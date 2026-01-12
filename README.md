@@ -31,7 +31,7 @@ mvn clean install: First removes old build files using the clean lifecycle, then
 ```bash
 apt install opnjdk-11-jdk
 sudo wget https://archive.apache.org/dist/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.tar.gz
-tar -xvf apache-maven-3.9.12-bin.tar.gz
+sudo tar -xzf apache-maven-3.9.1-bin.tar.gz
 root@ubuntu:~# mv apache-maven-3.9.12 /opt/
 root@ubuntu:~#cd /opt/apache-maven-3.9.12/bin
 vim /etc/profile # add end of the file ----->export PATH=$PATH:'/opt/apache-maven-3.9.12/bin'
