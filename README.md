@@ -44,7 +44,6 @@ mvn archetype:generate -DgroupId=com.cbz.app -DartifactId=cbz-app -DarchetypeArt
 tree cbz-app/
 git clone https://github.com/Bhushan-88/studentapp-ui.git
 
-
 mvn clean package
 
 ```
