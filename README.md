@@ -44,10 +44,7 @@ mvn archetype:generate -DgroupId=com.cbz.app -DartifactId=cbz-app -DarchetypeArt
 tree cbz-app/
 git clone https://github.com/Bhushan-88/studentapp-ui.git
 
-#Mandatory Commands After Updating pom.xml
-#Run these once to clear broken cached plugins:
-rm -rf ~/.m2/repository/org/apache/maven/plugins/maven-war-plugin
-rm -rf ~/.m2/repository/com/thoughtworks/xstream
+
 mvn clean package
 
 ```
