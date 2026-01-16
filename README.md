@@ -45,7 +45,7 @@ tree cbz-app/
 git clone https://github.com/Bhushan-88/studentapp-ui.git
 cd studentapp-ui
 rm -rf ~/.m2/repository/org/apache/maven/plugins/maven-war-plugin # optional
-rm -rf ~/.m2/repository/com/thoughtworks/xstream
+rm -rf ~/.m2/repository/com/thoughtworks/xstream # optional
 
 mvn clean package
 
