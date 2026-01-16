@@ -38,7 +38,7 @@ vim /etc/profile # add end of the file ----->export PATH=$PATH:'/opt/apache-mave
 source /etc/profile
 mvn --version
 ```
-## create project 
+## To create project 
 ```bash
 mvn archetype:generate -DgroupId=com.cbz.app -DartifactId=cbz-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
 tree cbz-app/
